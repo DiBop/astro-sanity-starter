@@ -1,6 +1,7 @@
 {
     "name": "astro-sanity-starter",
     "version": "0.0.1",
+    "type": "module",
     "scripts": {
         "dev": "astro dev",
         "start": "astro dev",
@@ -31,6 +32,5 @@
         "@stackbit/types": "^2.0.0",
         "configstore": "7.0.0",
         "daisyui": "^4.10.2"
-    },
-    "type": "module"
+    }
 }
