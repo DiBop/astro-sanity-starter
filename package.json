@@ -12,6 +12,7 @@
         "export": "node ./sanity-export/export.js"
     },
     "dependencies": {
+        "@astrojs/netlify": "^5.5.4",
         "@astrojs/tailwind": "^5.1.0",
         "@sanity/astro": "^3.1.6",
         "@sanity/client": "^6.22.0",
@@ -19,9 +20,9 @@
         "astro": "^4.15.9",
         "astro-icon": "^1.1.0",
         "dotenv": "^16.4.5",
+        "fs-extra": "^11.2.0",
         "marked": "^14.1.2",
-        "tailwindcss": "^3.4.13",
-        "fs-extra": "^11.2.0"
+        "tailwindcss": "^3.4.13"
     },
     "devDependencies": {
         "@sanity/export": "^3.38.1",
