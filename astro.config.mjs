@@ -15,7 +15,7 @@ export default defineConfig({
             applyBaseStyles: false
         })
     ],
-    output: "hybrid",
+    output: "static",
     adapter: netlify(),
     vite: {
         server: {
